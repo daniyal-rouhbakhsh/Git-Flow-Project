@@ -13,3 +13,12 @@ const isLogin = user => {
         return false
     }
 }
+
+const register = reg => {
+    if(reg.info){
+        return true
+    }
+    else{
+        return false
+    }
+}
