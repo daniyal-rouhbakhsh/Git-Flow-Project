@@ -7,7 +7,7 @@ formBtn.addEventListener('click',e => {
 
 const isLogin = user => {
     if(user){
-        return true
+        return {userId: 1,userName: 'Daniyal',userJob: 'Back-End Developer'}
     }
     else{
         return false
@@ -29,5 +29,23 @@ const getMeApi = api => {
     }
     else{
         return false
+    }
+}
+
+const likeFeature = like => {
+    if(like){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+const disLikeFeature = disLike => {
+    if(disLike){
+        return false
+    }
+    else{
+        return true
     }
 }
