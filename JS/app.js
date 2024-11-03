@@ -49,3 +49,21 @@ const disLikeFeature = disLike => {
         return true
     }
 }
+
+const userSearch = user => {
+    if(user){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+const addProduct = pro => {
+    if(pro){
+        return "New Product Added"
+    }
+    else{
+        return false
+    }
+}
