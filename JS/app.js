@@ -7,7 +7,7 @@ formBtn.addEventListener('click',e => {
 
 const isLogin = user => {
     if(user){
-        return true
+        return {userId: 1,userName: 'Daniyal',userJob: 'Back-End Developer'}
     }
     else{
         return false
