@@ -22,3 +22,12 @@ const register = reg => {
         return false
     }
 }
+
+const getMeApi = api => {
+    if(api == 'Ok'){
+        return true
+    }
+    else{
+        return false
+    }
+}
