@@ -58,3 +58,12 @@ const userSearch = user => {
         return false
     }
 }
+
+const addProduct = pro => {
+    if(pro){
+        return "New Product Added"
+    }
+    else{
+        return false
+    }
+}
